@@ -16,6 +16,6 @@ ABOUT APPLICATION
 	NOTE: This APP is internet intensive since it uses a remote API ( google Maps API ). Therefore you should have an internet connection to be able to use it.
 
 	The APP demonstrates how we can effectively get the nearest storage location to serve our customers in Uganda based on their places of residence. 
-	The APP gets the three closest storage locations that can serve the customer and gives details of distance and duration from a Customer's point to the storage location.
+	Type in the name of any known place in the text field above the MAP and select an option from any of the google generated suggestions, the APP gets the three closest storage locations that can serve the customer and gives details of distance and duration from a Customer's point to the storage location.
 
 	ENJOY !!!!!
