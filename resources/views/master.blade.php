@@ -87,6 +87,7 @@
   <script src="{{ asset('bootstrap/js/bootstrap.bundle.min.js') }}"></script>
   <script type="text/javascript" src="{{ asset('js/jquery.dataTables.min.js') }}"></script>
   <script type="text/javascript" src="{{ asset('js/dataTables.bootstrap4.min.js') }}"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBG254Os9XwAxcoRYRdfLW5AlIyJrKn3cU&libraries=places&callback=initMap" async defer></script>
   @stack('scripts')
 
   <script type="text/javascript">
