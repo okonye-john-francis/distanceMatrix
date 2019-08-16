@@ -1,0 +1,21 @@
+
+
+INSTALLATION INSTRUCTIONS
+======================================
+
+	1. After cloning the project to your local machine successfully, cd into the project folder
+	2. Run composer install
+	3. After composer has successfully installed, create a .env file by copying the content in the .env.example file to your .env file
+	4. Create a database and give it your name of choice in your Database Management System of preference e.g MYSQL
+	5. Edit the .env file by filling in the DB_DATABASE with your created database name, DB_USERNAME with your database user and DB_PASSWORD with your database password if you have one.
+	6. Run php artisan migrate --seed
+	7. Launch the app in your browser of preference
+
+ABOUT APPLICATION
+=====================================
+	NOTE: This APP is internet intensive since it uses a remote API ( google Maps API ). Therefore you should have an internet connection to be able to use it.
+
+	The APP demonstrates how we can effectively get the nearest storage location to serve our customers in Uganda based on their places of residence. 
+	The APP gets the three closest storage locations that can serve the customer and gives details of distance and duration from a Customer's point to the storage location.
+
+	ENJOY !!!!!
