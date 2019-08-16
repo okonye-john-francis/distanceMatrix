@@ -10,13 +10,15 @@ class MarkerController extends Controller
     
     public function index()
     {
-    	return view('markers.index');
+    	$markers = Marker::markers();
+
+    	return view('markers.index', compact('markers'));
     }
 
     public function getNearestStorageLocations(Request $request)
     {
     	$coordinate = json_decode($request->coordinate);
-    	
+
     	$nearest_storage_locations = Marker::nearestMarkers( $coordinate );
 
     	return response()->json([ $nearest_storage_locations ]);

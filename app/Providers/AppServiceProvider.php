@@ -3,7 +3,6 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use App\Marker;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -24,7 +23,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $markers = Marker::markers();
-        \View::share('markers', $markers);
+
     }
 }
